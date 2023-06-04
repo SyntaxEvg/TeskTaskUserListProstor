@@ -1,0 +1,9 @@
+Стек .Net7 + ef CORE + React +NextJs
+
+1)запуск бека,  собрать проект,  проверить стоит ли msSQ? запомнить  порт , или используется докер прописать host.docker.internal, запуск  dotnet ...dll
+2) узнали ur:port бека, открыть  файл  .env  прописать 
+NEXT_PUBLIC_API_HOST = 'http://localhost:7298'
+NEXT_PUBLIC_recordPerPage =5 -этот параметр  кол-во  отображаемых данных в таблице на 1 лист...    
+запуск  
+2.1)npm i
+2.2)npm run dev (или другие, смотреть package.json
